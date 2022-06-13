@@ -1,0 +1,154 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+    font-size: 100%;
+}
+
+.container-row {
+    border-top: 1px solid crimson;
+    padding: 20px;
+    display: flex;
+    flex-direction:row; /* o eixo principal será uma coluna */
+    justify-content:space-between;
+    align-self:center;
+    flex-wrap: wrap;
+    
+    
+   }
+   .tex1 { 
+     color: blue; 
+     font-size: 30px; 
+     font-style: normal;
+     text-transform: capitalize;
+     text-align:center;
+    }
+
+    .tex2 { 
+      color: blue; 
+      font-size: 30px; 
+      font-style: normal;
+      text-transform: uppercase;
+      text-shadow: 2px 4px 5px rgb(14, 13, 13), 0 0 1px red;
+      text-align:left;
+     }
+
+     .tex3 { 
+      color: blue; 
+      font-size: 30px; 
+      font-style:normal;
+      text-transform: lowercase;
+      text-shadow: 2px 3px 20px rgb(231, 17, 17); 
+      text-align:justify;
+     }
+
+    span { 
+      font-size: 1em; 
+      font-weight: bold;  
+      text-shadow: 2px 4px 5px rgb(12, 12, 12), 0 0 1px red;  
+  }
+
+  .tx{
+    text-transform: capitalize
+
+  }
+  .container-row-reverse {
+  border-top: 1px solid crimson;
+  padding: 20px;
+  display: flex;
+  flex-direction:row-reverse; /* o eixo principal será uma coluna */
+  justify-content:center;
+  }
+
+
+.container-column {
+  border-top: 1px solid crimson;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* o eixo principal será uma coluna */
+  align-items:stretch;
+  align-self:flex-end;
+  
+}
+
+  .container-columnreverse {
+  border-top: 1px solid crimson;
+  padding: 20px;
+  display: flex;
+  flex-direction:column-reverse; /* o eixo principal será uma coluna */
+  justify-content:center;
+  
+    
+  }
+
+
+
+  .tex4 { 
+    color: blue; 
+    font-style: normal;
+    text-transform: capitalize;
+    text-align:left;
+    
+    letter-spacing: 2px; word-spacing: 20px;
+   }
+
+   .tex5 { 
+     color: blue; 
+     font-size: 30px; 
+     font-style: normal;
+     text-transform: uppercase;
+     text-shadow: 2px 4px 5px rgb(14, 13, 13), 0 0 1px red;
+     text-align:left;
+    }
+
+    .tex6 { 
+     color: blue; 
+     font-size: 30px; 
+     font-style:normal;
+     text-transform: lowercase;
+     text-shadow: 2px 3px 20px rgb(231, 17, 17); 
+     text-align:justify;
+    }
+
+    .figure {
+      float: left;
+      width: 50%;
+      text-align: center;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      border: thin silver solid;
+      margin: 0.2em;
+      padding: 0.2em;
+    }
+
+
+    figure {
+      float: right;
+      width: 30%;
+      text-align: center;
+      font-style: italic;
+      font-size: smaller;
+      text-indent: 0;
+      border: thin silver solid;
+      margin: 0.5em;
+      padding: 0.5em;
+    }
+    img.scaled {
+      width: 100%;
+    }
+
+    figure {
+      display: table;
+    }
+    figcaption {
+      display: table-caption;
+      caption-side: top;
+    }

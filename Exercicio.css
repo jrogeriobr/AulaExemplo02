@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    font-size: 100%;
+    background:linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%)
+   
+}
+
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 300px;
+}
+
+/* APLICANDO ESTILO NO CABEÇALHO */
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* APLICANDO ESTILO NA IMAGEM DO BANNER */
+.banner img{
+    width: 100%;
+}
